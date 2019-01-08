@@ -1,16 +1,12 @@
 <html>
 <head>
-    <title>Opening Client Album - Kaydin Carlsen Photographyo</title>
+    <title>Opening Client Album - Falls Studio</title>
 </head>
 <body>
 <h1>Opening Client Album...</h1>
     
 <script type="text/javascript">
-
-
-var smugmugDomain = "https://kaydin.smugmug.com/ClientGalleries";
-
-
+var smugmugDomain = "https://kaydincarlsen.com/ClientGalleries";
 function getQueryVariable(variable)
 {
        var query = window.location.search.substring(1);
@@ -21,7 +17,6 @@ function getQueryVariable(variable)
        }
        return(false);
 }
-
 function opensmugLinkWindow(smugid)
   	{
 		
@@ -36,22 +31,18 @@ function opensmugLinkWindow(smugid)
 		var smugidname = "notfound";
 		
 		
-
 	}
 		var URL = smugmugbase + smugidname;
 		window.location=URL;
-		
+	
 	}
 	
 </script>
 
 <script type="text/javascript">
-
 getQueryVariable("mode");
 getQueryVariable("customerid");
 opensmugLinkWindow();
-
-
     
  
 </script>
